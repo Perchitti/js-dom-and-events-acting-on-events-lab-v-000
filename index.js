@@ -15,6 +15,7 @@ function retrieveEmployeeInformation(){
 
 function addNewElementAsLi(){
  const li = document.createElement('li')
+ li.appenChild(document.createTextNode(input.value))
 }
 
 function addNewLiOnClick(){
