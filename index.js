@@ -7,6 +7,7 @@ function preventRefreshOnSubmit(){
 preventRefreshOnSubmit()
 
 const input = document.querySelector('input')
+let submit = document.querySelector('.clear')
 
 function retrieveEmployeeInformation(){
   return input.value
@@ -21,5 +22,5 @@ function addNewLiOnClick(){
 }
 
 function clearEmployeeListOnLinkClick(){
-  
+  submit.clear()
 }
