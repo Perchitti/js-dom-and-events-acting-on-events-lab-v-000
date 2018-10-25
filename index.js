@@ -14,7 +14,7 @@ function retrieveEmployeeInformation(){
 }
 
 function addNewElementAsLi(){
-
+ const li = document.createElement('li')
 }
 
 function addNewLiOnClick(){
