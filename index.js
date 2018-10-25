@@ -12,7 +12,7 @@ function retrieveEmployeeInformation(){
   return input.value
 }
 
-function addTask(e){
+function addNewLiOnClick(e){
     if(input.value === ''){
         alert('Add a task')
     }
