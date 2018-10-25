@@ -12,3 +12,14 @@ function retrieveEmployeeInformation(){
   return input.value
 }
 
+function addNewElementAsLi(){
+  
+}
+
+function addNewLiOnClick(){
+  
+}
+
+function clearEmployeeListOnLinkClick(){
+  
+}
