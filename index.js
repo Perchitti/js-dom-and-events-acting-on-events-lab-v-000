@@ -33,7 +33,7 @@ function addNewLiOnClick(e){
     li.appendChild(link)
 
     //Append li to ul
-    taskList.appendChild(li)
+    input.appendChild(li)
 
     //Store in local storage
     storeTaskInLocalStorage(input.value);
