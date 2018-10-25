@@ -23,5 +23,5 @@ function addNewLiOnClick(){
 }
 
 function clearEmployeeListOnLinkClick(){
-  submit.clear()
+  localStorage.clear()
 }
